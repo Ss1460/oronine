@@ -6,3 +6,29 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.transit-enter-active {
+  transition: opacity 1.0s;
+}
+.transit-enter {
+  opacity: 0;
+}
+.transit-enter-from {
+  opacity: 0;
+}
+.transit-enter-to {
+  opacity: 1.0;
+}
+.transit-leave {
+  opacity: 1.0;
+}
+.transit-leave-to {
+  opacity: 0;
+}
+.transit-leave-active {
+  transition: opacity 1.0s;
+}
+

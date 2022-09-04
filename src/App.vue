@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <div>
+    <router-view></router-view>
+    <loadingVue></loadingVue>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import loadingVue from './global/loading.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    loadingVue,
   }
 }
 </script>
